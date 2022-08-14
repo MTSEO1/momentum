@@ -1,61 +1,57 @@
 const quotes = [
   {
-    quote: '活動的な馬鹿より恐ろしいものはない。',
-    author: 'ゲーテ',
-  },
-  {
-    quote: '「目的を見つけよ。手段は後からついてくる」',
-    author: 'ガンジー',
-  },
-  {
-    quote: '「常識とは、18歳までに身に付けた偏見のコレクションである」',
-    author: 'アインシュタイン',
+    quote: "Success isn't permanent, and failure isn't fatal.。",
+    author: '-Mike Ditka-',
   },
   {
     quote:
-      '「翼を持たずに生まれてきたのなら、翼をはやすためにどんな障害も乗り越えなさい」',
-    author: 'ココ・シャネル',
+      'Always bear in mind that your own resolution to succeed is more important than any one thing.',
+    author: '-Abraham Lincoln-',
   },
   {
-    quote: '「追いかけ続ける勇気さえあれば、夢は必ず叶います」',
-    author: 'ウォルト・ディズニー',
+    quote: 'Frugality without creativity is deprivation.',
+    author: '-Amy Dacyczyn-',
   },
   {
-    quote:
-      '時には、問いが複雑になっているだけで、答えはごくシンプルなことだったりします」',
-    author: 'ドクター・スース',
+    quote: 'Great minds have purposes, others have wishes.',
+    author: '-Washington Irving-',
   },
   {
-    quote: '「人間が授かった大いなる才能、それは共感する力です」',
-    author: 'メリル・ストリープ',
+    quote: 'Every time we say, "Let there be!" in any form, something happens.',
+    author: '-Stella Terrill Mann-',
   },
   {
-    quote:
-      '「今から20年後、あなたはやったことよりもやらなかったことを悔やむことになるだろう。そうなる前に、安穏とした港から船を出せ。自分自身の帆で貿易風を受け止めよ。真に求めるものを探求し、叶うことを願い、見出すのだ」',
-    author: 'マーク・トウェイン',
+    quote: 'There is no security on this earth, there is only opportunity.',
+    author: '-General Douglas MacArthur-',
   },
   {
-    quote:
-      '「過去は過ぎたが未来はまだ来ず。今、私はどちらからも自由だ。今まさに私は喜びを選ぶ」',
-    author: 'ディーパック・チョップラ',
+    quote: 'You always pass failure on the way to success.',
+    author: '-Mickey Rooney-',
   },
   {
-    quote:
-      '「時間は限られているのだから、他人の人生を生きて自分の時間を無駄に過ごしてはいけない」',
-    author: 'スティーブ・ジョブス',
-  },
-  {
-    quote: '「あなたは自分らしくいるだけで、十分です」',
-    author: 'メーガン・マークル',
+    quote: 'Strive for excellence, not perfection.',
+    author: '-H. Jackson Brown Jr.-',
   },
   {
     quote:
-      '「人生は自転車に乗ることに似ています。バランスを保つためには、動き続けなくてはならないのです」',
-    author: 'アルバート・アインシュタイン',
+      'All you need in this life is ignorance and confidence; then success is sure.',
+    author: '-Mark Twain-',
+  },
+  {
+    quote: 'There is no "i" in team but there is in win.',
+    author: '-Michael Jordan-',
+  },
+  {
+    quote: 'A goal without a plan is just a wish.',
+    author: '-Antoine de Saint-Exupery-',
+  },
+  {
+    quote: 'A mind troubled by doubt cannot focus on the course to victory.',
+    author: '-Arthur Golden-',
   },
 ];
-const quote = document.querySelector('#quote span:first-child');
-const author = document.querySelector('#quote span:last-child');
+const quote = document.querySelector('#quote div:first-child');
+const author = document.querySelector('#quote div:last-child');
 
 const todaysQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
